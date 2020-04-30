@@ -1,0 +1,105 @@
+
+/* Mobile Display */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+}
+
+.one{
+    color: white;
+    background-color: #f44336;
+    text-shadow: 1px 1px 1px black;
+}
+
+.two{
+    color: white;
+    background-color:  #FF9800;
+    text-shadow: 1px 1px 1px black;
+}
+
+.three{
+    color: white;
+    background-color:  #FFEB3B;
+    text-shadow: 1px 1px 1px black;
+}
+
+.four{
+    color: white;
+    background-color:  #8BC34A;
+    text-shadow: 1px 1px 1px black;
+}
+
+.five{
+    color: white;
+    background-color: #2196F3;
+    text-shadow: 1px 1px 1px black;
+}
+
+.six{
+    color: white;
+    background-color:  #9C27B0;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media screen and (min-width: 600px){
+
+    /* Desktop Display */
+    .flex{
+        width: 33.33%;
+    }
+
+    .grid{
+        display: flex;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .one{
+        color: white;
+        background-color: #f44336;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .two{
+        color: white;
+        background-color:  #FF9800;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .three{
+        color: white;
+        background-color:  #FFEB3B;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .four{
+        color: white;
+        background-color:  #8BC34A;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+
+    .five{
+        color: white;
+        background-color: #2196F3;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .six{
+        color: white;
+        background-color:  #9C27B0;
+        text-shadow: 1px 1px 1px black;
+    }
+
+}
