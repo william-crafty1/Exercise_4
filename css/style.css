@@ -1,10 +1,9 @@
 
 /* Mobile Display */
 
-.flex{
+.element{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 50%;
 }
 
@@ -19,42 +18,48 @@
     color: white;
     background-color: #f44336;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 .two{
     color: white;
     background-color:  #FF9800;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 .three{
     color: white;
     background-color:  #FFEB3B;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 .four{
     color: white;
     background-color:  #8BC34A;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 .five{
     color: white;
     background-color: #2196F3;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 .six{
     color: white;
     background-color:  #9C27B0;
     text-shadow: 1px 1px 1px black;
+    font-size: 50px;
 }
 
 @media screen and (min-width: 600px){
 
     /* Desktop Display */
-    .flex{
+    .element{
         width: 33.33%;
     }
 
@@ -69,24 +74,28 @@
         color: white;
         background-color: #f44336;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
     
     .two{
         color: white;
         background-color:  #FF9800;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
 
     .three{
         color: white;
         background-color:  #FFEB3B;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
     
     .four{
         color: white;
         background-color:  #8BC34A;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
     
 
@@ -94,12 +103,14 @@
         color: white;
         background-color: #2196F3;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
     
     .six{
         color: white;
         background-color:  #9C27B0;
         text-shadow: 1px 1px 1px black;
+        font-size: 50px;
     }
 
 }
